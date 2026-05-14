@@ -1,6 +1,4 @@
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 
-const root = createRoot(document.getElementById('root'));
-root.render(
-  <h1>Hello, world!</h1>
-);
+ReactDOM.createRoot(document.querySelector('#root')).render(<p>Hello world</p>);
+
