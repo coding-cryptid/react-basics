@@ -12,4 +12,3 @@ ReactDOM.createRoot(document.querySelector('#root')).render(
     </ul>
   </div>
 );
-);
